@@ -8,7 +8,7 @@
     $user='root';
     $pass='';
     $db='inventarisweb';
-    $port=3307;
+    $port=3306;
 
     $conn=mysqli_connect($host,$user,$pass,$db,$port);
 
